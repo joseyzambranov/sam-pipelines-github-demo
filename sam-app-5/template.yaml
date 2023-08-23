@@ -12,13 +12,13 @@ Globals:
     MemorySize: 128
 
 Parameters:
-     LambdaArchitecture:
-        Type: String
-        Default: arm64
-        AllowedValues:
-             - x86_64
-             - arm64
-        Description: Lambda function Architecture type.
+  LambdaArchitecture:
+    Type: String
+    Default: arm64
+    AllowedValues:
+      - x86_64
+      - arm64
+    Description: Lambda function Architecture type.
 
 Resources:
   HelloWorldFunction:
