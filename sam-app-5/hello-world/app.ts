@@ -16,7 +16,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
         response = {
             statusCode: 200,
             body: JSON.stringify({
-                message: 'hello world test config x86_64',
+                message: 'hello world test config manual arm64',
             }),
         };
     } catch (err: unknown) {
